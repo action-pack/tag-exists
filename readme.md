@@ -9,7 +9,7 @@
 
 Action to determine if a tag exists.
 
-## Usage
+## Usage 🚀
 
 To check if a tag named `example` exists in your current repository:
 
@@ -22,21 +22,21 @@ To check if a tag named `example` exists in your current repository:
 - run: echo ${{ steps.check.outputs.exists }}
 ```
 
-## Inputs
+## Inputs 📝
 
-### `tag` 
+  ### `tag` 
 
-**Required** - The tag to search for.
+  **Required** - The tag to search for.
 
-### `repo`
+  ### `repo`
 
-**Optional** - External repository name in`owner/repo` format.
+  **Optional** - External repository name in`owner/repo` format.
 
-## Outputs
+## Outputs 📝
 
-### `exists`
+  ### `exists`
 
-A string value of 'true' or 'false'
+  A string value of 'true' or 'false'
 
-## Stars
+## Stars 🌟
 [![Stars](https://starchart.cc/action-pack/tag-exists.svg?variant=adaptive)](https://starchart.cc/action-pack/tag-exists)
