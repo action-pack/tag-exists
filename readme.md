@@ -3,7 +3,7 @@
   
   [![Build](https://github.com/action-pack/tag-exists/actions/workflows/build.yml/badge.svg)](https://github.com/action-pack/tag-exists/)
   [![Version](https://img.shields.io/github/v/tag/action-pack/tag-exists?label=version&sort=semver&color=066da5)](https://github.com/marketplace/actions/tag-exists)
-  [![Size](https://img.shields.io/github/size/action-pack/tag-exists/dist/index.js?branch=release/v1.02&label=size&color=066da5)](https://github.com/action-pack/tag-exists/)
+  [![Size](https://img.shields.io/github/size/action-pack/tag-exists/dist/index.js?branch=release/v1.07&label=size&color=066da5)](https://github.com/action-pack/tag-exists/)
   
 </div></h1>
 
