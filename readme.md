@@ -39,4 +39,4 @@ To check if a tag named `example` exists in your current repository:
   A string value of 'true' or 'false'
 
 ## Stars 🌟
-![Stargazers](https://raw.githubusercontent.com/star-stats/stars/refs/heads/data/charts/action-pack-tag-exists.svg)
+[![Stargazers](https://raw.githubusercontent.com/star-stats/stars/refs/heads/data/charts/action-pack-tag-exists.svg)](https://github.com/action-pack/tag-exists/stargazers)
