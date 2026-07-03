@@ -38,6 +38,7 @@ async function run() {
         exists = "true";
       } else {
         core.setFailed("Unexpected status was returned: " + response.status);
+        return;
       }
     } catch (error) {
       if (error.status === 404) {
@@ -45,6 +46,7 @@ async function run() {
       } else {
         core.setFailed("Unexpected status was returned: " + error.status);
         console.error(error);
+        return;
       }
     }
 
