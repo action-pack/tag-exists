@@ -5,7 +5,7 @@ async function run() {
   try {
     // Get input
     const tag = process.env.TAG || process.env.INPUT_TAG || "";
-    const repoInput = core.getInput("repo") || process.env.GITHUB_REPOSITORY;
+    const repoInput = core.getInput("repo") || process.env.GITHUB_REPOSITORY || "";
 
     if (!tag) {
       throw new Error("No tag was specified!");
@@ -44,7 +44,7 @@ async function run() {
       if (error.status === 404) {
         console.log("Tag was not found");
       } else {
-        core.setFailed("Unexpected status was returned: " + error.status);
+        core.setFailed(`Unexpected status was returned: ${error.status}: ${error.message}`);
         console.error(error);
         return;
       }
