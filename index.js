@@ -7,6 +7,10 @@ async function run() {
     const tag = process.env.TAG || process.env.INPUT_TAG || "";
     const repoInput = core.getInput("repo") || process.env.GITHUB_REPOSITORY;
 
+    if (!tag) {
+      throw new Error("No tag was specified!");
+    }
+
     console.log(`Searching for tag: ${tag} in ${repoInput}`);
 
     if (!repoInput.includes("/")) {
